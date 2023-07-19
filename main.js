@@ -28,7 +28,7 @@ function suma(a, b) {
     console.log("3. Multiplicación");
     console.log("4. División");
     console.log("5. Potencia");
-    console.log("6. Salir de la calculadora.")
+    console.log("6. Salir de la calculadora. Gracias!")
   
     while(true) {
     
@@ -37,7 +37,6 @@ function suma(a, b) {
     if (operation === 6) {
         console.log("Saliendo de la calculadora...Gracias!");
         break;
-    }
 
     if (operation < 1 || operation > 6) {
       console.log("Operación desconocida. Vuelva a intentarlo");
@@ -69,6 +68,6 @@ function suma(a, b) {
   
     console.log(`Result: ${result}`);
   }
-  }
+  
   calculator();
   
