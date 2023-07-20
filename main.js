@@ -71,9 +71,8 @@ function calculadora() {
           break;
   }
 
-  console.log(`Result: ${resultado}`);
+  console.log(`Resultado: ${resultado}`);
   break
 }
-
 }
 calculadora();
